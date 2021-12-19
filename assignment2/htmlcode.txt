@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assignment2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
+</head>
+<body>
+    <!--Main div-->
+    <div>
+    <div class="wallpaper">
+        <div class="header">
+        <a class="btn btn-outline-success btn-lg" href="./login.html" role="button">Login</a>
+        <a class="btn btn-outline-success btn-lg" href="./account.html" role="button"> Create an Account </a>
+    </div>
+        
+            <!-- <img src="./Images/homepageimg.png" width="100%" height="400"> -->
+        
+        
+
+    
+    
+
+    
+    
+    <!--div for logo-->
+    <div class="wallpeper-images">
+        <div class="logo">
+            <p>e!</p>
+        </div>
+    
+        <div class="headings">
+            Find the best restaurants, cafes, bars
+        </div>
+        <!--div for searchlocation and dropdown-->
+        <div class="locationSelector">
+            <select class="locationDropdown">
+                <option value="0" selected="" disabled="">Select</option>
+                <option value="1">Sarjapura,Bangalore</option>
+                <option value="1">HSR Layout,Bangalore</option>
+                <option value="1">Kormangala,Bangalore</option>
+                <option value="1">Bannerghata Road,Bangalore</option>
+            </select>
+            <div class="search">
+                <input class="restaurantsinput" type="text" placeholder="Please Enter Restaurant Name">
+                <span class="glyphicon glyphicon-search search"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="quicksearch">
+        <p class="quicksearchHeading">
+            Quick Searches
+        </p>
+        <p class="quicksearchSubHeading">
+            Discover restaurants by type of meal
+        </p>
+        <!-- Creating CSS Grid - Rows & Columns -->
+        <!-- Creating CSS Responsive Conatiner -->
+        <div class="container-fluid">
+            <!-- Adding Row -->
+            <div class="row">
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/breakfast.jpg" width="140" height="150">
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Breakfast
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive breakfast.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/lunch.jpg" width="140" height="150">
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Lunch
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive lunch.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/snacks.png" width="140" height="150">
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Snacks
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive snacks.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Adding Row -->
+            <div class="row">
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/dinner.png" width="140" height="150">
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Dinner
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive dinner.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/drinks.png" width="140" height="150">
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Drinks
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive drinks.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/nightlife.png" width="140" height="150">
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                NightLife
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive nightlife.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
